@@ -1,0 +1,24 @@
+{
+  "name": "gcp-serverless-webhook",
+  "version": "1.0.0",
+  "description": "Example webhook for GCP CF/CR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=githubWebhookHandler"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinforrester/gcp-serverless-webhook.git"
+  },
+  "author": "Collin Forrester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinforrester/gcp-serverless-webhook/issues"
+  },
+  "homepage": "https://github.com/collinforrester/gcp-serverless-webhook#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1"
+  }
+}
